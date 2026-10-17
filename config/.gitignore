@@ -1,0 +1,52 @@
+# ========================
+# 🔐 SECRETS — Never push
+# ========================
+.env
+*.env
+.env.local
+.env.production
+
+# ========================
+# 📁 LOCAL FOLDERS
+# ========================
+uploads/
+processed/
+failed/
+logs/
+
+# ========================
+# 🐍 PYTHON CACHE
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ========================
+# 📦 VIRTUAL ENVIRONMENT
+# ========================
+venv/
+env/
+.venv/
+ENV/
+
+# ========================
+# 🛠️ IDE FILES
+# ========================
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ========================
+# 🪟 WINDOWS FILES
+# ========================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ========================
+# 📝 LOGS
+# ========================
+*.log

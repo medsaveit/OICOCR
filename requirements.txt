@@ -1,0 +1,12 @@
+# Requirements for the OICOCR project---------------------
+google-generativeai>=0.3.0
+pyodbc
+msal
+requests
+python-dotenv
+json-repair
+pydantic
+PyJWT
+tenacity
+tqdm
+httpx

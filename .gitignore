@@ -1,0 +1,30 @@
+# --- Python Virtual Environments & Packages ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Compiled Python Files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Environment Variables & Secrets ---
+.env
+secret.key
+
+# --- IDE & Editor Settings (VS Code / PyCharm) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs and Database Files ---
+*.log
+*.sqlite3
+db.sqlite3
+
+# --- OS Specific Files ---
+Thumbs.db
+.DS_Store
